@@ -10,8 +10,7 @@ import Face from './face'
 import Filters from './filters'
 import Mask from './mask'
 import AvaterFilter from './avater'
-import MindThree from './mindThree'
-import Mindaframe from './mindaframe'
+import P5 from './p5'
 
 
 function App() {
@@ -28,7 +27,8 @@ function App() {
          {/* <Mask /> */}
          {/* <AvaterFilter /> */}
      
-         <MindThree/>
+         {/* <MindThree/> */}
+         <P5 />
        </>
   )
 }

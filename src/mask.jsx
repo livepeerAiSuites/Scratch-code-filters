@@ -106,7 +106,7 @@ export default function Mask() {
                      } else {
                          dots = [];
                          maskElement = document.createElement('img');
-                         maskElement.src = '/full-mask-2.png';
+                         maskElement.src = '/full-mask-1.png';
                          maskElement.id = 'mask_' + x;
                          maskElement.className = 'mask';
                          maskArray.push({ keypoints: dots, maskElement: maskElement });
@@ -234,7 +234,7 @@ console.log(maskArray,masks,"arry")
               <h5 onClick={startWebcam}>start</h5>
               <div id="canvas"></div>
               <video ref={videoRef} style={{ display: isVideo ? 'block' : 'none' }} className="relative -z-50"/>
-              <img src="/full-mask-2.png" data-mask-type="full-mask" data-scale-width="1.2" data-scale-height="1.2" data-top-adj="0.05" data-left-adj="0.02" className='h-44 w-44'/>
+              <img src="/full-mask-1.png" data-mask-type="full-mask" data-scale-width="1.2" data-scale-height="1.2" data-top-adj="0.05" data-left-adj="0.02" className='h-44 w-44'/>
 
              
 
